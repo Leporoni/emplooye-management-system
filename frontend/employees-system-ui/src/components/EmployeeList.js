@@ -43,7 +43,7 @@ const EmployeeList = () => {
           Add Employee
         </button>
       </div>
-      <div className="flex shadow border-b">
+      <div className="flex shadow">
         <table className="min-w-full">
           <thead className="bg-gray-800">
             <tr>
