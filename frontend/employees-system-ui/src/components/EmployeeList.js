@@ -39,30 +39,30 @@ const EmployeeList = () => {
       <div className="h-12">
         <button
           onClick={() => navigate("/addEmployee")}
-          className="rounded bg-slate-600 text-white px-6 py-2 font-semibold">
+          className="rounded bg-gray-800 text-green-700 px-6 py-2 font-semibold">
           Add Employee
         </button>
       </div>
       <div className="flex shadow border-b">
         <table className="min-w-full">
-          <thead className="bg-gray-50">
+          <thead className="bg-gray-800">
             <tr>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-medium text-green-700 uppercase tracking-wider py-3 px-6">
                 First Name
               </th>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-medium text-green-700 uppercase tracking-wider py-3 px-6">
                 Last Name
               </th>
-              <th className="text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-left font-medium text-green-700 uppercase tracking-wider py-3 px-6">
                 Email ID
               </th>
-              <th className="text-right font-medium text-gray-500 uppercase tracking-wider py-3 px-6">
+              <th className="text-right font-medium text-green-700 uppercase tracking-wider py-3 px-6">
                 Actions
               </th>
             </tr>
           </thead>
           {!loading && (
-            <tbody className="bg-white">
+            <tbody className="bg-gray-800">
               {employees.map((employee) => (
                 <Employee
                   employee={employee}

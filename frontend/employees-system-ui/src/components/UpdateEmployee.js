@@ -89,7 +89,7 @@ const UpdateEmployee = () => {
           </button>
           <button
             onClick={() => navigate("/employeeList")}
-            className="rounded text-white font-semibold bg-red-400 hover:bg-red-700 py-2 px-6">
+            className="rounded text-green-700 font-semibold bg-red-400 hover:bg-red-700 py-2 px-6">
             Cancel
           </button>
         </div>
